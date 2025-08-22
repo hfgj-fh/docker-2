@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-EXPOSE 3000
+EXPOSE 25000
 
 # 安装 curl，并执行原有命令
 RUN apt update -y && \
